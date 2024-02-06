@@ -1,0 +1,59 @@
+{
+    "mcq":[
+    {
+        "question": "What is Java?",
+        "op1": "Programming language",
+        "op2": "Coffee brand",
+        "op3": "Island in Indonesia",
+        "op4": "Type of dance",
+        "sol": "opt1"
+    },
+    {
+        "question": "Who is the author of 'Romeo and Juliet'?",
+        "op1": "William Shakespeare",
+        "op2": "Jane Austen",
+        "op3": "Charles Dickens",
+        "op4": "Leo Tolstoy",
+        "sol": "opt1"
+    },
+    {
+        "question": "What is the capital of France?",
+        "op1": "Berlin",
+        "op2": "Madrid",
+        "op3": "Paris",
+        "op4": "Rome",
+        "sol": "opt3"
+    },
+    {
+        "question": "What is the square root of 25?",
+        "op1": "3",
+        "op2": "5",
+        "op3": "10",
+        "op4": "25",
+        "sol": "opt2"
+    }
+],
+"coding":[
+    {
+        "que": "Write a Python program to calculate the sum of two numbers.",
+        "exp": "The sum is: 15"
+    },
+    {
+        "que": "What is the capital of Japan?",
+        "exp": "Tokyo"
+    },
+    {
+        "que": "Implement a function to check if a number is prime.",
+        "exp": "The number is prime."
+    },
+    {
+        "que": "Who wrote the play 'Hamlet'?",
+        "exp": "William Shakespeare"
+    },
+    {
+        "que": "Create a Java program to find the factorial of a given number.",
+        "exp": "The factorial is: 120"
+    }
+]
+
+}

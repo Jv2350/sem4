@@ -49,10 +49,10 @@ public class UserLoginForm_GN{
         mainFrame.setLayout(null);
         mainFrame.setVisible(true);
 
-        // if frame close then teminate the program
+        // if frame close then terminate the program
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // adding actionlistener for loginButton
+        // adding actionListener for loginButton
         loginButton.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 performLogin();
