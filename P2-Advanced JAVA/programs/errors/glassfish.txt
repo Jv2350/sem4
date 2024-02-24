@@ -1,0 +1,5 @@
+Starting GlassFish Server
+Could not initialize Java SE Development Kit to start GlassFish Server: <html>GlassFish Server Server cannot be started with C:\Program Files\Java\jdk-1.8</html>
+D:\cs\sem4\P2-Advanced JAVA\programs\Net beans programs\JspForm\nbproject\build-impl.xml:1030: Deployment error: Could not initialize Java SE Development Kit to start GlassFish Server: <html>GlassFish Server Server cannot be started with C:\Program Files\Java\jdk-1.8</html>
+See the server log for details.
+BUILD FAILED (total time: 0 seconds)

@@ -8,7 +8,7 @@ module.exports = (register, helpers) => {
         getExtractions(data, collector, context) {
             if (!(data instanceof Map)) {
                 return;
-            }
+            } 
 
             collector.addExtraction({
                 priority: 1000,

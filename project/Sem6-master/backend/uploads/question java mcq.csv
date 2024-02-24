@@ -1,0 +1,115 @@
+Question,A,B,C,D,Solution
+"What is the purpose of the static"" keyword in Java?""","To declare a variable that belongs to the class, not the instance.",To define a constant variable.,To indicate that a method cannot be overridden.,To create a new instance of a class.,A
+How is multiple inheritance achieved in Java?,Using interfaces,Using abstract classes,Using final classes,It is not possible in Java.,A
+Which of the following is not a primitive data type in Java?,int,float,char[],boolean,C
+What is the default value of the local variables in Java?,0,null,Depends on the data type,1,C
+"What does the term JVM"" stand for?""",Java Variable Manager,Java Virtual Machine,Java Visual Model,Java Verification Module,B
+Which loop is guaranteed to execute at least once in Java?,for,while,do-while,if-else,C
+"What is the purpose of the this"" keyword in Java?""",To refer to the current instance of the class,To declare a variable as an instance variable,To create a new instance of a class,To access static members of a class,A
+"What is the role of the super"" keyword in Java?""",To call the superclass method,To create a new instance of a class,To refer to the current instance of the class,To access static members of a class,A
+How is exception handling implemented in Java?,Using try-catch blocks,Using if-else statements,Using switch statements,Using loops,A
+"What is the purpose of the break"" statement in Java?""",To exit from a loop or switch statement,To terminate the program,To skip the current iteration of a loop,To resume the execution of the program,A
+Which of the following is a marker interface in Java?,Serializable,Cloneable,Both Serializable and Cloneable,Runnable,C
+"What is the purpose of the finalize"" method in Java?""",To force garbage collection,To perform cleanup operations before an object is garbage collected,To release system resources,To create a new instance of a class,B
+How can you achieve encapsulation in Java?,By using access modifiers,By using inheritance,By using polymorphism,By using interfaces,A
+"What is the purpose of the interface"" keyword in Java?""",To declare a new class,To declare a new method,To declare a new interface,To declare a new variable,C
+"What is the output of the following code? 
+int x = 10; 
+System.out.println(x > 5 ? Greater"" : ""Smaller"");""",Greater,Smaller,Compilation Error,Runtime Error,A
+"What is the purpose of the throws"" clause in Java?""",To declare checked exceptions that a method might throw,To declare unchecked exceptions that a method might throw,To declare the main method,To declare a variable,A
+Which method is called when an object is garbage collected in Java?,finalize(),dispose(),destroy(),cleanup(),A
+"What is the purpose of the toString"" method in Java?""",To convert an object to a string,To concatenate two strings,To compare two strings,To find the length of a string,A
+Which collection class is synchronized in Java?,ArrayList,HashSet,Vector,LinkedList,C
+"What is the purpose of the super()"" constructor in Java?""",To call the superclass constructor,To create a new instance of a class,To initialize a variable,To exit from a loop,A
+"What is the purpose of the transient"" keyword in Java?""",To make a variable non-transient,To make a variable transient,To make a method transient,To make a class transient,B
+"What is the role of the instanceof"" operator in Java?""",To compare two instances of a class,To check if an object is an instance of a particular class or interface,To check if a class is an instance of an object,To check if two objects are equal,B
+"What is the purpose of the NaN"" constant in Java?""","To represent Not a Number""""",To represent infinity,To represent negative infinity,To represent a large number,A
+How is method overloading different from method overriding in Java?,"Method overloading is based on the number and type of parameters, while method overriding is based on the return type.","Method overloading is based on the return type, while method overriding is based on the number and type of parameters.",Method overloading is not supported in Java.,Method overriding is not supported in Java.,A
+"What is the purpose of the assert"" statement in Java?""",To check if a condition is true and throw an exception if it is false,To check if a condition is false and throw an exception if it is true,To check if a variable is null,To check if a variable is not null,A
+"What is the purpose of the enum"" keyword in Java?""",To declare a new class,To declare a new variable,To declare a new method,To declare a new enumeration,D
+Which method is called to start the execution of a Java program?,start(),run(),main(),execute(),C
+"What is the purpose of the volatile"" keyword in Java?""",To declare a variable as volatile,To declare a method as volatile,To declare a class as volatile,To declare a loop as volatile,A
+"What is the purpose of the package"" keyword in Java?""",To declare a new package,To import a package,To declare a new class,To declare a new method,A
+How is method overriding achieved in Java?,"By using the override"" keyword""","By using the extends"" keyword""","By using the implements"" keyword""",By having a subclass provide a specific implementation of a method already provided by its superclass,D
+"System.out.println(s1 == s2);""",TRUE,FALSE,Compilation Error,Runtime Error,B
+"What is the purpose of the instanceof"" operator in Java?""",To compare two instances of a class,To check if an object is an instance of a particular class or interface,To check if a class is an instance of an object,To check if two objects are equal,B
+How are arrays represented in Java?,As a linked list,As a set of key-value pairs,As a sequence of elements of the same type,As a collection of objects,C
+"What is the purpose of the try"" block in Java?""",To define cleanup actions that must be executed whether an exception occurs or not.,To catch exceptions.,To handle the normal flow of the program.,To declare variables.,C
+Which method is used to read input from the console in Java?,readLine(),readInput(),readConsole(),getUserInput(),A
+"What is the purpose of the Math.random()"" method in Java?""",To generate a random integer,To generate a random float,To generate a random double,To generate a random value between 0.0 and 1.0,D
+Which class is the superclass for all exceptions in Java?,RuntimeException,Exception,Error,Throwable,D
+"What is the purpose of the synchronized"" keyword in Java?""",To synchronize the execution of a block of code,To create a new instance of a class,To declare a variable as synchronized,To indicate that a method cannot be synchronized,A
+"What is the purpose of the break"" statement in Java?""",To exit from a loop or switch statement,To terminate the program,To skip the current iteration of a loop,To resume the execution of the program,A
+"What is the output of the following code? 
+int x = 5; 
+System.out.println(x > 10 ? Greater"" : ""Smaller"");""",Greater,Smaller,Compilation Error,Runtime Error,B
+"What is the purpose of the StringBuffer"" class in Java?""",To represent a mutable sequence of characters,To represent an immutable sequence of characters,To represent a single character,To represent a null-terminated string,A
+"How is the super()"" constructor used in a subclass in Java?""",To call the superclass constructor with no arguments,To create a new instance of a class,To initialize a variable,To exit from a loop,A
+"What is the purpose of the instanceof"" operator in Java?""",To compare two instances of a class,To check if an object is an instance of a particular class or interface,To check if a class is an instance of an object,To check if two objects are equal,B
+How is method overloading different from method overriding in Java?,"Method overloading is based on the number and type of parameters, while method overriding is based on the return type.","Method overloading is based on the return type, while method overriding is based on the number and type of parameters.",Method overloading is not supported in Java.,Method overriding is not supported in Java.,A
+"What is the purpose of the assert"" statement in Java?""",To check if a condition is true and throw an exception if it is false,To check if a condition is false and throw an exception if it is true,To check if a variable is null,To check if a variable is not null,A
+"What is the output of the following code? 
+int x = 5; 
+System.out.println(x++);",5,6,4,The code will not compile.,A
+How is polymorphism implemented in Java?,By using interfaces,By using abstract classes,By using final classes,By using inner classes,A
+"What is the purpose of the default"" case in a switch statement in Java?""",To provide a default value if none of the cases match,To terminate the switch statement,To indicate the end of the switch statement,To indicate the start of the switch statement,A
+"What is the purpose of the this"" keyword in Java?""",To refer to the current instance of the class,To declare a variable as an instance variable,To create a new instance of a class,To access static members of a class,A
+How are interfaces different from abstract classes in Java?,"Interfaces can have multiple inheritance, while abstract classes cannot.","Abstract classes can have multiple inheritance, while interfaces cannot.","Interfaces can have constructor methods, while abstract classes cannot.","Abstract classes can have final methods, while interfaces cannot.",A
+"What is the purpose of the finally"" block in Java?""",To define cleanup actions that must be executed whether an exception occurs or not.,To catch exceptions.,To handle the normal flow of the program.,To declare variables.,A
+"How is the equals()"" method used in Java?""",To check if two objects are equal based on their memory addresses,To check if two objects are equal based on their contents,To compare two strings,To compare two integers,B
+"What is the purpose of the protected"" access modifier in Java?""",To make a member accessible only within its own class,To make a member accessible within its own package and by its subclasses,To make a member accessible within any class,To make a member accessible globally,B
+"What is the purpose of the NaN"" constant in Java?""","To represent Not a Number""""",To represent infinity,To represent negative infinity,To represent a large number,A
+"What is the purpose of the transient"" keyword in Java?""",To make a variable non-transient,To make a variable transient,To make a method transient,To make a class transient,B
+"What is the purpose of the abstract"" keyword in Java?""",To declare a variable as abstract,To declare an abstract class,To declare an abstract method,To create a new instance of a class,C
+Which design pattern is used to create an object in a way that the same object is returned when the object is requested again?,Singleton,Factory Method,Abstract Factory,Builder,A
+"What is the purpose of the volatile"" keyword in Java?""",To declare a variable as volatile,To declare a method as volatile,To declare a class as volatile,To declare a loop as volatile,A
+"What is the purpose of the throw"" statement in Java?""",To throw a checked exception,To throw an unchecked exception,To throw a runtime exception,To throw a custom exception,B
+"What is the purpose of the do-while"" loop in Java?""",To execute a block of code as long as a condition is true,"To execute a block of code at least once, then repeat as long as a condition is true",To execute a block of code based on a condition,To execute a block of code a specific number of times,B
+"What is the purpose of the instanceof"" operator in Java?""",To compare two instances of a class,To check if an object is an instance of a particular class or interface,To check if a class is an instance of an object,To check if two objects are equal,B
+"How is the compareTo"" method used in Java?""",To compare two objects based on their contents,To compare two strings based on their lengths,To compare two objects based on their memory addresses,To compare two integers based on their values,A
+"What is the purpose of the trim()"" method in Java?""",To remove leading and trailing spaces from a string,To concatenate two strings,To convert a string to uppercase,To convert a string to lowercase,A
+"How is the break"" statement used in a switch statement in Java?""",To exit the switch statement,To skip the current iteration of a loop,To terminate the program,To indicate the end of the switch statement,A
+"What is the purpose of the continue"" statement in Java?""",To skip the current iteration of a loop and continue with the next iteration,To terminate the program,To exit from a loop,To indicate the end of the switch statement,A
+"What is the purpose of the try-with-resources"" statement in Java?""",To catch exceptions,To manage resources by automatically closing them when they are no longer needed,To declare variables,To handle the normal flow of the program,B
+"What is the purpose of the super"" keyword in Java?""",To call the superclass method,To create a new instance of a class,To refer to the current instance of the class,To access static members of a class,A
+"How is the this()"" constructor used in Java?""",To call the superclass constructor,To create a new instance of a class,To initialize a variable,To call another constructor in the same class,D
+"What is the purpose of the auto-boxing"" feature in Java?""",To automatically convert a primitive type to its corresponding wrapper class,To automatically convert a wrapper class to its corresponding primitive type,To automatically cast objects,To automatically cast variables,A
+"What is the purpose of the static import"" feature in Java?""",To import static members of a class,To import non-static members of a class,To import classes from a different package,To import all classes in a package,A
+"What is the purpose of the String.format()"" method in Java?""",To format a string based on a format specifier,To concatenate two strings,To convert a string to uppercase,To convert a string to lowercase,A
+How are anonymous classes implemented in Java?,"By using the anonymous"" keyword""","By using the abstract"" keyword""",By extending an existing class or implementing an interface without a separate class declaration,By declaring a class without a name,C
+"What is the purpose of the Class.forName()"" method in Java?""",To create a new instance of a class,To load a class dynamically at runtime,To get the class name of an object,To check if a class is present,B
+"What is the purpose of the Bitwise AND"" operator in Java?""",To perform logical AND operation on two integers,To perform bitwise AND operation on two integers,To perform logical AND operation on two boolean values,To perform bitwise AND operation on two boolean values,B
+"What is the purpose of the java.util.regex"" package in Java?""",To provide support for regular expressions,To handle input and output operations,To handle networking operations,To provide support for multithreading,A
+"What is the purpose of the Locale"" class in Java?""","To represent a specific geographical, political, or cultural region",To represent a specific data type,To represent a specific variable,To represent a specific condition,A
+"What is the purpose of the ArrayList"" class in Java?""",To represent a resizable array,To represent a fixed-size array,To represent a two-dimensional array,To represent a linked list,A
+"What is the purpose of the Random"" class in Java?""",To generate random numbers,To perform random access on arrays,To represent a random variable,To perform bitwise operations on random numbers,A
+"How is the clone()"" method used in Java?""",To create a new instance of a class,To create a copy of an object,To clone a method,To clone a variable,B
+"What is the purpose of the java.time"" package in Java?""",To provide support for date and time manipulation,To handle input and output operations,To handle networking operations,To provide support for multithreading,A
+"What is the purpose of the java.nio"" package in Java?""",To provide support for non-blocking I/O operations,To handle input and output operations,To handle networking operations,To provide support for multithreading,A
+"What is the purpose of the NaN"" constant in Java?""","To represent Not a Number""""",To represent infinity,To represent negative infinity,To represent a large number,A
+"How is the switch"" statement different from a series of ""if-else"" statements in Java?""","The switch"" statement can only be used with integers and enumerated types""","The switch"" statement can only be used with strings""","The switch"" statement can only handle exact matches""","The switch"" statement is more efficient for multiple branches""",A
+"What is the purpose of the Runtime"" class in Java?""",To represent the runtime environment of the system,To manage memory allocation,To execute commands at runtime,To handle input and output operations,A
+"How is the finally"" block used in Java exception handling?""",To define cleanup actions that must be executed whether an exception occurs or not,To catch exceptions,To handle the normal flow of the program,To declare variables,A
+"What is the purpose of the Collections"" class in Java?""",To provide utility methods for working with collections,To represent a collection of objects,To create a new collection,To handle input and output operations,A
+"How is the substring()"" method used in Java?""",To extract a portion of a string,To concatenate two strings,To convert a string to uppercase,To convert a string to lowercase,A
+"What is the purpose of the continue"" statement in Java?""",To skip the current iteration of a loop and continue with the next iteration,To terminate the program,To exit from a loop,To indicate the end of the switch statement,A
+"What is the purpose of the EnumSet"" class in Java?""",To represent a set of enumerated values,To represent a set of integers,To represent a set of characters,To represent a set of strings,A
+"What is the purpose of the Path"" interface in Java?""",To represent a file or directory path,To represent a path in a graph,To represent a path in a network,To represent a path in a linked list,A
+"How is the compareToIgnoreCase"" method used in Java?""","To compare two strings based on their contents, ignoring case differences",To compare two integers based on their values,To compare two objects based on their memory addresses,To compare two objects based on their contents,A
+"What is the purpose of the Deque"" interface in Java?""",To represent a double-ended queue,To represent a dynamic array,To represent a linked list,To represent a stack,A
+"How is the printf"" method used in Java?""",To format a string based on a format specifier,To concatenate two strings,To convert a string to uppercase,To convert a string to lowercase,A
+"What is the purpose of the Collections.sort()"" method in Java?""",To sort a collection of objects,To reverse a collection of objects,To shuffle a collection of objects,To search for an element in a collection,A
+"How is the Character.isDigit()"" method used in Java?""",To check if a character is a digit,To convert a character to its corresponding digit,To check if a character is a letter,To check if a character is a whitespace character,A
+"What is the purpose of the ClassLoader"" in Java?""",To load classes dynamically at runtime,To unload classes from memory,To manage memory allocation,To handle input and output operations,A
+"How is the Thread.sleep()"" method used in Java?""",To pause the execution of the current thread for a specified period of time,To terminate the current thread,To start a new thread,To check the status of a thread,A
+"What is the purpose of the Collections.unmodifiableList()"" method in Java?""",To create an unmodifiable view of a list,To create a modifiable view of a list,To create a new list,To sort a list,A
+"How is the Arrays.copyOf()"" method used in Java?""",To create a copy of an array,To concatenate two arrays,To reverse an array,To search for an element in an array,A
+"What is the purpose of the ObjectOutputStream"" class in Java?""",To write objects to an output stream,To read objects from an input stream,To serialize objects,To deserialize objects,C
+"How is the Collections.singleton()"" method used in Java?""",To create an immutable set containing a single element,To create a modifiable set containing multiple elements,To create an unmodifiable set containing multiple elements,To create a set with a specified capacity,A
+"What is the purpose of the FileReader"" class in Java?""",To read characters from a file,To read binary data from a file,To write characters to a file,To write binary data to a file,A
+"How is the Arrays.asList()"" method used in Java?""",To convert an array to a list,To concatenate two arrays,To reverse an array,To search for an element in an array,A
+"What is the purpose of the Collections.reverse()"" method in Java?""",To reverse the order of elements in a collection,To sort a collection in reverse order,To shuffle the elements in a collection,To search for an element in a collection,A
+"How is the File.exists()"" method used in Java?""",To check if a file or directory exists,To create a new file or directory,To delete a file or directory,To rename a file or directory,A
+"What is the purpose of the RandomAccessFile"" class in Java?""",To read and write data at random positions in a file,To read and write data sequentially in a file,To read data from a file,To write data to a file,A
+"How is the Collections.frequency()"" method used in Java?""",To count the number of occurrences of an element in a collection,To calculate the frequency of an element in a collection,To find the maximum frequency in a collection,To find the minimum frequency in a collection,A
+"What is the purpose of the System.arraycopy()"" method in Java?""",To copy elements from one array to another,To reverse the elements of an array,To shuffle the elements of an array,To search for an element in an array,A

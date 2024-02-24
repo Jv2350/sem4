@@ -1,0 +1,52 @@
+.wrapper {
+  background: linear-gradient(45deg, rgb(207, 108, 124), rgb(143, 15, 143));
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 400px;
+}
+
+.logo > img {
+  width: 450px;
+  height: 450px;
+  border-radius: 10px;
+}
+.form-container {
+  border: 2px solid transparent;
+  background: linear-gradient(-45deg, rgb(215, 106, 124), rgb(164, 18, 164));
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 4px;
+}
+
+.form-group > input {
+  border-radius: 10px;
+  border: 1px solid pink;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+.form-group > input::placeholder {
+  color: pink;
+}
+
+.sub-btn {
+  border: 1px solid white;
+}
