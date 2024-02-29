@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/5th prac/dist/lib/derbynet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/5th prac/dist/lib/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/5th prac/dist/lib/derbyclient.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

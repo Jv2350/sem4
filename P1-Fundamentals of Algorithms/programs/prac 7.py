@@ -1,3 +1,6 @@
+# Write a python program for deleting an element (assuming data is given) from binary tree.
+
+
 class Node:
     def __init__(self, data):
         self.data = data
@@ -16,6 +19,7 @@ def inorder(temp):
 def deleteDeepest(root, d_node):
     q = []
     q.append(root)
+    
     while len(q):
         temp = q.pop(0)
         if temp is d_node:
@@ -75,3 +79,10 @@ if __name__ == "__main__":
     root = deletion(root, key)
     print("\nTree after deletion:")
     inorder(root)
+
+"""
+Tree before deletion:
+7 11 12 10 15 9 8
+Tree after deletion:
+7 8 12 10 15 9
+"""

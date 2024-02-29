@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <EditText
+    android:id="@+id/editTextName"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:hint="Enter Name"/>
+    <EditText
+    android:id="@+id/editTextEmail"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_below="@id/editTextName"
+    android:layout_marginTop="16dp"
+    android:inputType="textEmailAddress"
+    android:hint="Enter Email"/>
+    <Button
+    android:id="@+id/btnInsert"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextEmail"
+    android:layout_marginTop="16dp"
+    android:text="Insert Data"/>
+    <Button
+    android:id="@+id/btnRetrieveAll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btnInsert"
+    android:layout_marginTop="16dp"
+    android:text="Retrieve All Users"/>
+    <EditText
+    android:id="@+id/editTextUserId"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_below="@id/btnRetrieveAll"
+    android:layout_marginTop="16dp"
+    android:hint="Enter User ID"/>
+    <Button
+    android:id="@+id/btnRetrieveById"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextUserId"
+    android:layout_marginTop="16dp"
+    android:text="Retrieve User by ID"/>
+    <TextView
+    android:id="@+id/textViewData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/btnRetrieveById"
+    android:layout_marginTop="16dp"
+
+    android:text="Data will be displayed here."
+    android:textSize="18sp"/>
+    </RelativeLayout>

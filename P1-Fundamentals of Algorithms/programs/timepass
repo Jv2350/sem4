@@ -1,0 +1,18 @@
+import numpy as np
+
+# Coefficients of the equations
+coefficients = np.array([[1, -3, -2],
+                         [0, 2, 4],
+                         [0, 0, -10]])
+
+# Constants on the right-hand side of the equations
+constants = np.array([7, 4, 12])
+
+# Solve the system of linear equations
+solution = np.linalg.solve(coefficients, constants)
+
+# Print the solution
+print("Solution:")
+print("x1 =", solution[0])
+print("x2 =", solution[1])
+print("x3 =", solution[2])

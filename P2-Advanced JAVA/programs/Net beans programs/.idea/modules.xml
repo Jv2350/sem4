@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1st prac/1st prac.iml" filepath="$PROJECT_DIR$/1st prac/1st prac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4th prac/4th prac.iml" filepath="$PROJECT_DIR$/4th prac/4th prac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5th prac/5th prac.iml" filepath="$PROJECT_DIR$/5th prac/5th prac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6th prac/6th prac.iml" filepath="$PROJECT_DIR$/6th prac/6th prac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7th prac/7th prac.iml" filepath="$PROJECT_DIR$/7th prac/7th prac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Net beans programs.iml" filepath="$PROJECT_DIR$/.idea/Net beans programs.iml" />
+    </modules>
+  </component>
+</project>

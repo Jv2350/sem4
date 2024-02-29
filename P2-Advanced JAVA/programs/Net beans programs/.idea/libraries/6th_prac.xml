@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="6th_prac">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/6th prac/dist/6th_prac.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

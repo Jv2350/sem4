@@ -6,14 +6,14 @@ import java.sql.*;
 public class Prac {
 
     public Prac() throws SQLException {
-        Connection c = DriverManager.getConnection("jdbc:derby://localhost:1527/pracs", "abc", "abc");
+        Connection c = DriverManager.getConnection("jdbc:derby://localhost:1527/prac5", "prac5", "prac5");
         System.out.println("Connection Established");
 
         Statement s = c.createStatement();
         System.out.println("Statment is created");
 
 //        create
-//        s.executeUpdate("create table student(sRollNo int, sName varchar(20))");
+        s.executeUpdate("create table student(sRollNo int, sName varchar(20))");
         System.out.println("Table is created");
 
 //        read 
