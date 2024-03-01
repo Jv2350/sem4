@@ -1,1 +1,3 @@
-"
+    return min(arr)
+
+
