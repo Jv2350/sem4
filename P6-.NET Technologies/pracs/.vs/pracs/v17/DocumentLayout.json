@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|d:\\cs\\sem4\\p6-.net technologies\\pracs\\pracs\\prac 15\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 15\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 15\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 15\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 14\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 14\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 14\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 14\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 13\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 13\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 13\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 13\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 12\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 12\\webform1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 12\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C6132B02-9D1A-428B-B13E-934898799F5E}|pracs\\pracs.csproj|solutionrelative:pracs\\prac 12\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 15\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "pracs\\prac 15\\WebForm1.aspx.cs",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 15\\WebForm1.aspx.cs",
+              "RelativeToolTip": "pracs\\prac 15\\WebForm1.aspx.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:30:57.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 15\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "pracs\\prac 15\\WebForm1.aspx",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 15\\WebForm1.aspx",
+              "RelativeToolTip": "pracs\\prac 15\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-05T16:29:52.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 14\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "pracs\\prac 14\\WebForm1.aspx.cs",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 14\\WebForm1.aspx.cs",
+              "RelativeToolTip": "pracs\\prac 14\\WebForm1.aspx.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:28:07.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 14\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "pracs\\prac 14\\WebForm1.aspx",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 14\\WebForm1.aspx",
+              "RelativeToolTip": "pracs\\prac 14\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-05T16:27:08.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 13\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "pracs\\prac 13\\WebForm1.aspx.cs",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 13\\WebForm1.aspx.cs",
+              "RelativeToolTip": "pracs\\prac 13\\WebForm1.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:25:34.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 13\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "pracs\\prac 13\\WebForm1.aspx",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 13\\WebForm1.aspx",
+              "RelativeToolTip": "pracs\\prac 13\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-05T16:24:51.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WebForm1.aspx.cs",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 12\\WebForm1.aspx.cs",
+              "RelativeDocumentMoniker": "pracs\\prac 12\\WebForm1.aspx.cs",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 12\\WebForm1.aspx.cs",
+              "RelativeToolTip": "pracs\\prac 12\\WebForm1.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:20:46.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 12\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "pracs\\prac 12\\WebForm1.aspx",
+              "ToolTip": "D:\\cs\\sem4\\P6-.NET Technologies\\pracs\\pracs\\prac 12\\WebForm1.aspx",
+              "RelativeToolTip": "pracs\\prac 12\\WebForm1.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-05T16:20:37.838Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

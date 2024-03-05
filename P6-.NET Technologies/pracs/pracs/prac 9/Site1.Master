@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="pracs.prac_9.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {}
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+                            <asp:Table ID="Table1" runat="server" CssClass="auto-style1" Height="119px" Width="686px">
+                    <asp:TableRow runat="server">
+                        <asp:TableCell runat="server">                <asp:Image ID="Image1" runat="server" ImageUrl="~/prac 9/img/a.png" /></asp:TableCell>
+                        <asp:TableCell runat="server">
+                            <asp:Label ID="Label1" runat="server" Text="ICE CREAM PARLOR" Font-Names="Century Gothic" Font-Size="50px"></asp:Label>
+<br />
+<asp:LinkButton ID="LinkButton1" runat="server" Font-Names="Arial Black" Font-Size="20px" PostBackUrl="~/prac 9/WebForm1.aspx">Home </asp:LinkButton><br>
+<asp:LinkButton ID="LinkButton2" runat="server" Font-Names="Arial Black" Font-Size="20px" PostBackUrl="~/prac 9/WebForm2.aspx">About us</asp:LinkButton>
+                        </asp:TableCell>
+                    </asp:TableRow>
+                </asp:Table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
