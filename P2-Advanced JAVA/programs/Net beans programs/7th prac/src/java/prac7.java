@@ -31,7 +31,7 @@ public class prac7 extends HttpServlet {
             out.println("<body>");
             out.println("<h1>Servlet displaydate at " + request.getContextPath() + "</h1>");
             java.util.Date date = new java.util.Date();
-            out.println("<h2>" + "Current Date &amp; Time: " + date.toString() + "</h2>");
+            out.println("<h2>" + "Current Date & Time: " + date.toString() + "</h2>");
             out.println("</body>");
             out.println("</html>");
         }

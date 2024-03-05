@@ -1,34 +1,36 @@
-import numpy as np
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
+    return -1
 
 
-def orthogonal_projection(b, u):
-    # Ensure the vectors have the same dimension
-    if len(b) != len(u):
-        raise ValueError("Vectors must have the same dimension.")
+def binary_search(arr, target):
+    low = 0
+    high = len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
 
-    # Calculate the projection
-    dot_product = np.dot(b, u)
-    u_magnitude_squared = np.dot(u, u)
 
-    projection = (dot_product / u_magnitude_squared) * u
+arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+target = 7
 
-    return projection
+linear_result = linear_search(arr, target)
+binary_result = binary_search(arr, target)
 
+if linear_result != -1:
+    print(f"Linear Search: Element found at index {linear_result}")
+else:
+    print("Linear Search: Element not found")
 
-# Get input from the user
-try:
-    # Input vector b
-    b_input = input("Enter vector b as a space-separated list of values: ")
-    b = np.array([float(x) for x in b_input.split()])
-
-    # Input vector u
-    u_input = input("Enter vector u as a space-separated list of values: ")
-    u = np.array([float(x) for x in u_input.split()])
-
-    # Calculate and print the orthogonal projection
-    projection_result = orthogonal_projection(b, u)
-    print("Orthogonal Projection of b onto u:", projection_result)
-
-except ValueError as e:
-    print(f"Error: {e}. Please enter valid numerical values.")
-
+if binary_result != -1:
+    print(f"Binary Search: Element found at index {binary_result}")
+else:
+    print("Binary Search: Element not found")

@@ -1,3 +1,30 @@
+# write a program for inserting an element in binary tree
+
+from binarytree import Node
+
+
+def insert(root, key):
+    if root is None:
+        return Node(key)
+    else:
+        if key < root.value:
+            root.left = insert(root.left, key)
+        else:
+            root.right = insert(root.right, key)
+    return root
+
+
+root = Node(50)
+keys = [30, 20, 40, 70, 60, 80]
+for key in keys:
+    root = insert(root, key)
+
+print(root.inorder)
+
+
+# ----------------------------------------------------------------
+
+
 class Node:
     def __init__(self, key):
         self.left = None
@@ -5,7 +32,6 @@ class Node:
         self.val = key
 
 
-# a utility function to insert a new node with the given key
 def insert(root, node):
     if root is None:
         root = node
@@ -22,7 +48,6 @@ def insert(root, node):
                 insert(root.left, node)
 
 
-# a utility function to do inorder tree traversal
 def inorder(root):
     if root:
         inorder(root.left)
@@ -30,8 +55,6 @@ def inorder(root):
         inorder(root.right)
 
 
-# driver program to test the above functions
-# let us create the following BST
 #      50
 #     /  \
 #   30    70
@@ -44,5 +67,5 @@ insert(r, Node(40))
 insert(r, Node(70))
 insert(r, Node(60))
 insert(r, Node(80))
-# print inorder traversal of the BST
+
 inorder(r)

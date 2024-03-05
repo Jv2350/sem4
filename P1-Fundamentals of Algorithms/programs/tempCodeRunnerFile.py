@@ -1,3 +1,1 @@
-    return min(arr)
-
-
+# write a program for inserting an element in binary tree

@@ -19,7 +19,7 @@ def inorder(temp):
 def deleteDeepest(root, d_node):
     q = []
     q.append(root)
-    
+
     while len(q):
         temp = q.pop(0)
         if temp is d_node:
