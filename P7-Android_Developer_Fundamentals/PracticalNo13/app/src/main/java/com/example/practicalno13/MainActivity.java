@@ -6,6 +6,8 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 public class MainActivity extends AppCompatActivity {
@@ -33,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
         String email = editTextEmail.getText().toString().trim();
         long userId = databaseHelper.insertUser(name, email);
         Log.d("UserData", "User inserted with ID: " + userId);
+
+        String str = "Inserted\nUsername: "+editTextName.getText().toString()+"\nEmail: "+editTextEmail.getText().toString();
+        Toast msg = Toast.makeText(getBaseContext(),str,Toast.LENGTH_LONG);
+        msg.show();
+
+        editTextName.setText("");
+        editTextEmail.setText("");
+        editTextUserId.setText("");
     }
     private void retrieveAllUsers() {
         List<User> allUsers = databaseHelper.getAllUsers();
@@ -42,6 +52,9 @@ public class MainActivity extends AppCompatActivity {
             userData.append("ID: ").append(user.getId()).append(", Name:").append(user.getName()).append(", Email:").append(user.getEmail()).append("\n");
         }
         textViewData.setText(userData.toString());
+        editTextName.setText("");
+        editTextEmail.setText("");
+        editTextUserId.setText("");
     }
     @SuppressLint("SetTextI18n")
     private void retrieveUserById() {
@@ -59,5 +72,8 @@ public class MainActivity extends AppCompatActivity {
         } else {
             textViewData.setText("Please enter a user ID.");
         }
+        editTextName.setText("");
+        editTextEmail.setText("");
+        editTextUserId.setText("");
     }
 }

@@ -20,6 +20,7 @@ public class Prac {
             Connection con = DriverManager.getConnection("jdbc:derby://localhost:1527/prac6", "prac6", "prac6");
             System.out.println("Connection Established");
             java.sql.Statement stmt = con.createStatement();
+            stmt.executeUpdate("drop table tutorial");
             String createTable = "CREATE TABLE Tutorial(Name VARCHAR(255), Type VARCHAR(50), Logo BLOB)";
             stmt.execute(createTable);
             System.out.println("table created");

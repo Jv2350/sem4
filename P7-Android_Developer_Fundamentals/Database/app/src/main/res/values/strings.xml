@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Database</string>
+    <string name="insert_data">Insert Data</string>
+    <string name="retrieve_all_users">Retrieve All Users</string>
+    <string name="retrieve_user_by_id">Retrieve User by ID</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_user_id">Enter User ID</string>
+    <string name="data_will_be_displayed_here">Data will be displayed here.</string>
+</resources>

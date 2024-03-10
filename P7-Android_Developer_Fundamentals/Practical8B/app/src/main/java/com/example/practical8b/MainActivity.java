@@ -10,31 +10,32 @@ import android.widget.TimePicker;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
-    private TimePicker timePicker1;
-    private TextView time;
+    private TimePicker timePicker;
+    private TextView timeDisplay;
     private Calendar calendar;
     private String format = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        timePicker1 = (TimePicker) findViewById(R.id.timePicker1);
-        time = (TextView) findViewById(R.id.textView);
+        timePicker = findViewById(R.id.timePicker1);
+        timeDisplay = findViewById(R.id.textView);
         calendar = Calendar.getInstance();
 
         int hour = calendar.get(Calendar.HOUR_OF_DAY);
-        int min = calendar.get(Calendar.MINUTE);
-        showTime(hour, min);
+        int minute = calendar.get(Calendar.MINUTE);
+        showTime(hour, minute);
     }
 
     public void setTime(View view){
-        int hour = timePicker1.getCurrentHour();
-        int min = timePicker1.getCurrentMinute();
-        showTime(hour, min);
+        int hour = timePicker.getCurrentHour();
+        int minute = timePicker.getCurrentMinute();
+        showTime(hour, minute);
     }
 
-    public void showTime(int hour, int min){
+    public void showTime(int hour, int minute){
         if(hour ==  0){
             hour += 12;
             format = "AM";
@@ -47,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
             format = "AM";
         }
 
-        time.setText(new StringBuilder().append(hour).append(":").append(min).append(" ").append(format));
+        timeDisplay.setText(hour + ":" + minute + " " + format);
     }
 }

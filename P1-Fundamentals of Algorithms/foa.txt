@@ -1,0 +1,11 @@
+1. Write python program to find sum of elements of array, searching an element in array, finding minimum and maximum element in a numbers in arrayу, count the number of even and odd numbers in array.
+2. Write python program to insert and delete element from an array.
+3. Write Python program to perform matrix multiplication.
+4. Write Python program to sort n numbers using Quick sort algorithm. 
+5. Write Python program to sort n numbers using Merge sort algorithm. 
+6. Write Python program for inserting an element into binary tree.
+7. Write Python program for deleting an element from binary tree.
+8. Write Python program for finding the smallest and largest elements in an array A of size n using Selection algorithm.
+9. Write Python program for implementing Huffman Coding Algorithm. Discuss the complexity of algorithm.
+10. Write Python program to perform linear search and binary search on list of elements.
+11. Write Python program to sort elements of list by using selection sort and insertion sort.

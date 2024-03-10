@@ -16,7 +16,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String CHANNEL_ID = "notification_channel";
+    private static final String CHANNEL_ID = "notification_chan nel";
     private static final int NOTIFICATION_ID = 101;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

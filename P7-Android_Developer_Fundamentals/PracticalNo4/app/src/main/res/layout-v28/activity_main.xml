@@ -57,7 +57,8 @@
         android:layout_marginTop="78dp"
         android:text="@string/login_page"
         android:textFontWeight="500"
-        android:textSize="@dimen/_50dp" />
+        android:textSize="@dimen/_50dp"
+        tools:ignore="SpUsage" />
 
 
 </RelativeLayout>

@@ -10,7 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText editText;
+    EditText editText, editTextPassword;
+
     Button button;
 
     @Override
@@ -20,11 +21,12 @@ public class MainActivity extends AppCompatActivity {
 
         editText = (EditText) findViewById(R.id.editText);
         button = (Button) findViewById(R.id.button);
+        editTextPassword = (EditText) findViewById(R.id.editTextPassword);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String str = editText.getText().toString();
+                String str = "Username: "+editText.getText().toString()+"\nPassword: "+editTextPassword.getText().toString();
                 Toast msg = Toast.makeText(getBaseContext(),str,Toast.LENGTH_LONG);
                 msg.show();
             }

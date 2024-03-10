@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Practical No8(A)</string>
+    <string name="alert">Alert</string>
+    <string name="tap">Tap to test the alert</string>
+    <string name="alertTitle">Alert!!</string>
+    <string name="alertMsg">Press OK or CANCEL</string>
+    <string name="ok">OK\n</string>
+    <string name="okPressed">OK button pressed!!</string>
+    <string name="cancel">CANCEL</string>
+    <string name="cancelPressed">Cancel button pressed</string>
+</resources>
