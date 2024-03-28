@@ -11,8 +11,12 @@ def largest(arr, n):
 
 arr = [10, 324, 45, 90, 9808]
 n = len(arr)
-Ans = largest(arr, n)  # return max to make the program bigger we are calling the largest method
-print(max(arr))  # instead of above line and largest function we can directly use max and print the result
+Ans = largest(
+    arr, n
+)  # return max to make the program bigger we are calling the largest method
+print(
+    max(arr)
+)  # instead of above line and largest function we can directly use max and print the result
 print("Largest in given array is", Ans)
 
 

@@ -1,0 +1,6 @@
+D:\cs\sem4\P6-.NET Technologies\pracs\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\cs\sem4\P6-.NET Technologies\pracs\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\cs\sem4\P6-.NET Technologies\pracs\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\cs\sem4\P6-.NET Technologies\pracs\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\cs\sem4\P6-.NET Technologies\pracs\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\cs\sem4\P6-.NET Technologies\pracs\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
