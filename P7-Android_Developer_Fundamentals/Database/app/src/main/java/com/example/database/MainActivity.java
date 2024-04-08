@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         StringBuilder userData = new StringBuilder("All Users:\n");
         for (User user : allUsers) {
-            userData.append("ID: ").append(user.getId()).append(", Name:").append(user.getName()).append(", Email:").append(user.getEmail()).append("\n");
+            userData.append("ID: ").append(user.getId()).append(", Name: ").append(user.getName()).append(", Email: ").append(user.getEmail()).append(".\n");
         }
         textViewData.setText(userData.toString());
         editTextName.setText("");

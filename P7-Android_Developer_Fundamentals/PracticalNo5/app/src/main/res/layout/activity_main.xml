@@ -12,16 +12,12 @@
         android:layout_height="wrap_content"
         android:text="Example of checkbox"
         android:textAlignment="center"
-        android:textSize="35sp"
-        />
+        android:textSize="35sp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginStart="47dp"
         android:layout_marginTop="142dp"
         android:text="Do you like yourself" />
@@ -30,9 +26,6 @@
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginStart="231dp"
         android:layout_marginTop="145dp"
         android:text="Do you like android" />
@@ -41,7 +34,6 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="62dp"
         android:layout_marginBottom="33dp"
@@ -61,9 +53,6 @@
         android:id="@+id/switch1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginStart="164dp"
         android:layout_marginTop="222dp"
         android:text="Switch" />
@@ -72,9 +61,6 @@
         android:id="@+id/toggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
         android:layout_marginStart="160dp"
         android:layout_marginTop="252dp"
         android:text="ToggleButton" />
@@ -83,8 +69,6 @@
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_marginStart="48dp"
         android:layout_marginTop="93dp"
         android:text="RadioButton" />
@@ -93,7 +77,6 @@
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="91dp"
         android:layout_marginEnd="81dp"
@@ -101,17 +84,11 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="411dp"
-        android:layout_height="376dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="-3dp"
-        android:layout_marginTop="299dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginBottom="98dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="241dp"
         android:src="@drawable/img" />
 
 </RelativeLayout>

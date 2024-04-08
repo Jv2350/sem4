@@ -24,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        nameEditText= findViewById(R.id.editTextText);
-        emailEditText = findViewById(R.id.editTextTextEmailAddress);
-        phoneEditText = findViewById(R.id.editTextPhone);
-        passwordEditText = findViewById(R.id.editTextTextPassword);
+        nameEditText= findViewById(R.id.name);
+        emailEditText = findViewById(R.id.email);
+        phoneEditText = findViewById(R.id.phone);
+        passwordEditText = findViewById(R.id.password);
         btn = findViewById(R.id.button);
         textView = findViewById(R.id.textView);
         spinner = findViewById(R.id.spinner);

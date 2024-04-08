@@ -46,8 +46,8 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 StringBuffer result = new StringBuffer();
-                result.append("Thanks: ").append(checkBox.isChecked());
-                result.append("\nThanks: ").append(checkBox2.isChecked());
+                result.append("First checkbox: ").append(checkBox.isChecked());
+                result.append("\nSecond checkbox: ").append(checkBox2.isChecked());
                 Toast.makeText(MainActivity.this, result.toString(), Toast.LENGTH_SHORT).show();
             }
         });

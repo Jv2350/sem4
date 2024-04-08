@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Practical No8(A)</string>
+    <string name="app_name">Alert</string>
     <string name="alert">Alert</string>
     <string name="tap">Tap to test the alert</string>
     <string name="alertTitle">Alert!!</string>

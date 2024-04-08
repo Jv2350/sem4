@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Practical No 7</string>
+    <string name="app_name">Keyboard</string>
     <string name="validEmail">Please enter valid email address</string>
     <string name="validPhone">Enter valid phone number.</string>
     <string name="validPassword">Enter atleast 6 characters.</string>

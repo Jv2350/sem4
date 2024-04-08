@@ -1,48 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:orientation="vertical"
+    android:padding="50sp">
 
     <EditText
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:hint="@string/enter_name"
+        android:textSize="20sp"
         android:inputType="text"
         android:autofillHints="" />
 
     <EditText
         android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/editTextName"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
         android:inputType="textEmailAddress"
         android:hint="@string/enter_email" />
+
 
     <Button
         android:id="@+id/btnInsert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextEmail"
-        android:layout_marginTop="16dp"
-        android:text="@string/insert_data" />
-
-    <Button
-        android:id="@+id/btnRetrieveAll"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnInsert"
-        android:layout_marginTop="16dp"
-        android:text="@string/retrieve_all_users" />
+        android:layout_marginTop="10dp"
+        android:text="@string/insert_data"
+        android:textSize="18sp" />
 
     <EditText
         android:id="@+id/editTextUserId"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/btnRetrieveAll"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:textSize="20sp"
         android:inputType="number"
         android:hint="@string/enter_user_id"
         android:autofillHints="" />
@@ -51,17 +47,33 @@
         android:id="@+id/btnRetrieveById"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextUserId"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="10dp"
         android:text="@string/retrieve_user_by_id" />
 
-    <TextView
-        android:id="@+id/textViewData"
+    <Button
+        android:id="@+id/btnRetrieveAll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnRetrieveById"
-        android:layout_marginTop="16dp"
-        android:text="@string/data_will_be_displayed_here"
-        android:textSize="18sp" />
+        android:layout_marginTop="10dp"
+        android:text="@string/retrieve_all_users" />
 
-</RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/data_will_be_displayed_here"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

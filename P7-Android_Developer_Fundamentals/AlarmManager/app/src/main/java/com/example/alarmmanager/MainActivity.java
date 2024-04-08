@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView textView;
     private AlarmManager alarmManager;
     private PendingIntent alarmIntent;
-    private static final long time=3000;
+    private static final long time=5000;
 
     private BroadcastReceiver alarmReceiver = new AlarmReceiver(){
         @Override
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     private void setAlarm(){
         long triggerTime = SystemClock.elapsedRealtime() + time;
         alarmManager.setExactAndAllowWhileIdle(AlarmManager.ELAPSED_REALTIME_WAKEUP, triggerTime, alarmIntent);
-        textView.setText("Alarm set to trigger after 3 seconds ");
+        textView.setText("Alarm set to trigger after 5 seconds ");
     }
 
     @Override
